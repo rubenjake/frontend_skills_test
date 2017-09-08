@@ -69,6 +69,10 @@ a, .btn-default {
 	z-index: 3;
 	.navbar-brand {
 		font-weight: 800;
+		img {
+			width: 100px;
+			margin-left: 53px;
+		}
 	}
 	.nav {
 		li {
