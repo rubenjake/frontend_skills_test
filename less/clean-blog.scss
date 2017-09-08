@@ -163,12 +163,11 @@ a, .btn-default {
 
 .intro-header {
 	height: 450px;
-	min-height: 400px;
-	background-size: cover;
-	background-postion: center center;
+	min-height: 400px;	
+	background-size: cover;	
 	background-color: $gray; 
 	background: no-repeat center center; 
-	background-attachment: scroll;
+	background-attachment: fixed;
 	// NOTE: Background images are set within the HTML using inline CSS!
 	margin-bottom: 50px;
 	.site-heading,
