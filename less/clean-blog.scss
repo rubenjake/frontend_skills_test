@@ -23,8 +23,8 @@ h6 {
 	font-weight: 800;
 }
 
-a {
-	color: $gray-dark;
+a {	
+	color: $gray-dark;	
 	&:hover,
 	&:focus {
 		color: $brand-primary;
@@ -48,6 +48,14 @@ hr.small {
 	margin: 15px auto;
 	border-width: 4px;
 	border-color: white;
+}
+
+// Transition effect on all hovers
+a, .btn-default {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 // Navigation
@@ -403,7 +411,7 @@ form .row:first-child .floating-label-form-group {
 			letter-spacing: 1px;
 			padding: 15px 25px;
 			background-color: white;
-			border-radius: 0;
+			border-radius: 0;			
 		}
 
 		> a:hover,
